@@ -159,3 +159,5 @@ create table payment_tbl
 insert into payment_tbl values (20001, 41001, 3900, 275,'Romeo',218381647, '414',TO_DATE('2003/05/03 21:02:44', 'yyyy/mm/dd hh24:mi:ss') ,'Cash on Delivery');
 
 select * from payment_tbl;
+
+commit;
