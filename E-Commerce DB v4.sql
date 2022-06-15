@@ -59,6 +59,13 @@ create table product_tbl
         pdescription varchar(1000),
         imagepath varchar(200)
 );
+
+alter table product_tbl modify  (imagepath blob);
+
+ALTER TABLE table_name 
+ALTER COLUMN column_name new_data_type(size);
+
+
 select * from product_tbl
 
 insert into product_tbl values (2001, 'Far Cry 6', 2750, 1001, 'UBISOFT', '21-Oct-2021', 10, 0, 'Antón Castillo rose to power on the promise of restoring the once-prosperous island nation of Yara back to its former glory and plans to forge his vision of paradise by any means necessary. With his 13-year-old son Diego reluctantly following in his father’s bloody footsteps, Antón has the future of Yara clenched tightly in his hands.', null);
@@ -161,3 +168,4 @@ select * from product_tbl;
 commit;
 
 select * from product_tbl;
+
