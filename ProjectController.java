@@ -82,7 +82,7 @@ public class ProjectController {
 		//List<ProductInfo> list=null;
 		model.addAttribute("allproducts",list);
 		}
-		else { 
+		else if (categoryname == null) { 
 			List<ProductInfo> list = objtemplate.getAllProducts();
 			model.addAttribute("allproducts",list);
 		}
