@@ -29,6 +29,8 @@ public class Java {
 		System.out.println(filter);
 		
 		String name = "Sam";
+		
+		String sql =  "where dept_name in("+filter+")"; 
 
 	}
 }
